@@ -41,6 +41,10 @@
 	color: white;
 }
 
+#find_out {
+	margin-top: 15px;
+}
+
 @media (min-width: 401px) and (max-width: 777px) {  
 	.intro-text {
 		color: black;
