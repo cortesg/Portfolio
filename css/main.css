@@ -7,3 +7,43 @@
 	opacity: 0.95;
 	/*background-color: gray;*/
 }
+
+#header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url(../img/portfolio/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro-text {
+	color: black;
+	/*font-size: 1vw;*/
+}
+
+@media (min-width: 401px) and (max-width: 777px) {  
+	.intro-text {
+		color: black;
+		margin-top: 50px;
+		font-size: 4vw;
+	}
+	.skills {
+		font-size: 1vw;
+	}
+}
+
+@media (max-width: 400px) {  
+	.intro-text {
+		color: black;
+		margin-top: 50px;
+		font-size: 4vw;
+	}
+	.skills {
+		font-size: 1vw;
+	}
+}
+
