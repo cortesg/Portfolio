@@ -1,3 +1,23 @@
+#header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 710px;
+    background: url(../img/portfolio/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro-text {
+	color: black;
+}
+
+#find_out {
+	margin-top: 15px;
+}
+
 .items img {
     height: 300px;
     width: 400px;
@@ -5,5 +25,46 @@
 
 .portfolio-modal .modal-content {
 	opacity: 0.95;
-	/*background-color: gray;*/
 }
+
+.project_title:hover {
+	text-decoration: none;
+	color: gold;
+}
+
+#email_link:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#to-top {
+	display: none;
+	background-color: gray;
+	opacity: .6;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+}
+
+@media (min-width: 401px) and (max-width: 777px) {  
+	.intro-text {
+		color: black;
+		margin-top: 50px;
+		font-size: 4vw;
+	}
+	.skills {
+		font-size: 1vw;
+	}
+}
+
+@media (max-width: 400px) {  
+	.intro-text {
+		color: black;
+		margin-top: 50px;
+		font-size: 4vw;
+	}
+	.skills {
+		font-size: 1vw;
+	}
+}
+
