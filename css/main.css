@@ -32,7 +32,7 @@
 	color: gold;
 }
 
-#email_link:hover {
+.footer_links:hover {
 	text-decoration: none;
 	color: white;
 }
