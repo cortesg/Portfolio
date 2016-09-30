@@ -14,6 +14,15 @@
 	color: black;
 }
 
+.dressage {
+	color: black;
+}
+
+.dressage:hover {
+	text-decoration: none;
+	color: #18BC9C;
+}
+
 #find_out {
 	margin-top: 15px;
 }
